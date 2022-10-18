@@ -12,10 +12,4 @@ final class HelloWorldTest extends TestCase
         $this->expectOutputString((new HelloWorld)->say());
         print 'Hello World' . PHP_EOL;
     }
-
-    public function testPrintHelloWorldSengajaSalah(): void
-    {
-        $this->expectOutputString((new HelloWorld)->say());
-        print 'Hello World';
-    }
 }
